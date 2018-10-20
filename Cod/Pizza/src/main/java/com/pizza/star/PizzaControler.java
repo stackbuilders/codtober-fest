@@ -23,5 +23,6 @@ public class PizzaControler {
 		pedido.setIngredient(ingredient);
 		repoPedido.save(pedido);
 		return new ResponseEntity<Pedido>(pedido, HttpStatus.OK);
+	
 	}
 }
