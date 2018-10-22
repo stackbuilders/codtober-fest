@@ -2,9 +2,9 @@
 
 # Description
 
-This folder contains the front-end part of the exercice. You have to develop the backend services and replace the endpoints in the JS files with your own.
+This folder contains the front-end part of the exercise. You have to develop the backend services and replace the endpoints in the JS files with your own.
 
-For each HTML file there are a JS file with same name in the `js` folder, which makes the HTTP requests to the backend.
+For each HTML file there is a JS file with same name in the `js` folder, which makes the HTTP request to the backend.
 
 Search for comments like the one below in the JS files to find where to replace them with your service endpoints.
 
@@ -30,7 +30,7 @@ In the `json` folder there are some data JSON examples of the data that the serv
 
 If you need a static server to check the HTML templates you could use [lite-server](https://github.com/johnpapa/lite-server) that we configured for you. 
 
-Instructions to install and run the server:
+### Instructions to install and run the server:
 
 You will need [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/). Instructions to install in [Windows](https://treehouse.github.io/installation-guides/windows/node-windows.html) and [Linux/Mac](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/). 
 
@@ -38,4 +38,4 @@ You will need [Node](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/). 
   2. `npm install` or `yarn install`
   3. `npm start`
 
-Open `http://localhost:3000` in your browser to try out.
+Open `http://localhost:3000` in your browser to try it out.

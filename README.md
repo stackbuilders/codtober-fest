@@ -48,7 +48,7 @@ The initial version will have these pages:
      <tr>
       <td>
 
-    Sizes | Price
+    Size | Price
     --- | ---
     Small | $5
     Medium | $8
@@ -57,7 +57,7 @@ The initial version will have these pages:
       </td>
       <td>
 
-    Ingredients | Price
+    Ingredient | Price
     --- | ---
     Extra cheese | $1
     Anchovies | $2
@@ -72,8 +72,8 @@ The initial version will have these pages:
     
     (You can use this [template](templates/index.html) for this page).
 
-1. **View orders page:** Simple list of the orders that the clients have entered. You can use this [template](templates/orders.html) for this page.
-1. **View order page:** A single page view of an order. You can use this [template](templates/order-detail.html) for this page.
+2. **View orders page:** Simple list of the orders that the clients have entered. You can use this [template](templates/orders.html) for this page.
+3. **View order page:** A single page view of an order. You can use this [template](templates/order-detail.html) for this page.
 
 ## HTML Templates
 

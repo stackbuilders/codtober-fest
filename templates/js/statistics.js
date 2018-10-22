@@ -1,5 +1,5 @@
 /**
- * Fetchs de order detail and appends to the page
+ * Fetches the order detail and appends to the page
  * ****************************
  * Please change 'json/statistics.json' 
  * with your service endpoint below

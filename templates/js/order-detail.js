@@ -4,7 +4,7 @@
 let id = 1;
 
 /**
- * Fetchs de order detail and appends to the page.
+ * Fetches the order detail and appends to the page.
  * 
  * ****************************
  * Please change '/json/order.json?id=${id}' 

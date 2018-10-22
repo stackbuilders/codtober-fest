@@ -23,7 +23,7 @@ function postOrder(order) {
  * Get the form and submit it with fetch API
  */
 let orderForm = $("#order-form");
-orderForm.submit((event) => {
+orderForm.submit(event => {
 
     let order = getOrderData();
     postOrder(order);
@@ -47,7 +47,7 @@ function getOrderData() {
         phone: $("input[name='phone']").val(),
         size: $("input[name='size']:checked").val(),
         ingredients
-    }
+    };
 }
 
 /**
@@ -55,6 +55,6 @@ function getOrderData() {
  */
 function showNotification() {
     let orderAlert = $("#order-alert");
-    orderAlert.toggle()
+    orderAlert.toggle();
     setTimeout(() => orderAlert.toggle(), 5000);
 }
